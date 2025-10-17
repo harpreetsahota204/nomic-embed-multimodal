@@ -1,0 +1,58 @@
+{
+    "name": "nomic-embed-multimodal",
+    "url": "https://github.com/harpreetsahota204/nomic-embed-multimodal",
+    "models": [
+        {
+            "base_name": "nomic-ai/nomic-embed-multimodal-7b",
+            "base_filename":"nomic-embed-multimodal-7b",
+            "author": "Nomic AI",
+            "license": "Apache-2.0",
+            "source": "https://huggingface.co/nomic-ai/nomic-embed-multimodal-7b",
+            "description": "nomic-embed-multimodal-7b is a dense state-of-the-art multimodal embedding model that excels at visual document retrieval tasks.",
+            "tags": [
+                "classification",
+                "logits",
+                "embeddings",
+                "torch",
+                "visual-document-retrieval",
+                "zero-shot"
+            ],
+            "date_added": "2025-10-17",
+            "requirements": {
+                "packages": ["huggingface-hub","transformers", "torch", "torchvision",  "colpali-engine"],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        },
+        {
+            "base_name": "nomic-ai/nomic-embed-multimodal-3b",
+            "base_filename":"nomic-embed-multimodal-3b",
+            "author": "Nomic AI",
+            "license": "Apache-2.0",
+            "source": "https://huggingface.co/nomic-ai/nomic-embed-multimodal-7b",
+            "description": "nomic-embed-multimodal-3b is a dense state-of-the-art multimodal embedding model that excels at visual document retrieval tasks.",
+            "tags": [
+                "classification",
+                "logits",
+                "embeddings",
+                "torch",
+                "visual-document-retrieval",
+                "zero-shot"
+            ],
+            "date_added": "2025-10-17",
+            "requirements": {
+                "packages": ["huggingface-hub","transformers", "torch", "torchvision",  "colpali-engine"],
+                "cpu": {
+                    "support": true
+                },
+                "gpu": {
+                    "support": true
+                }
+            }
+        }
+   ]
+}
