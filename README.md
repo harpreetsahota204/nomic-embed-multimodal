@@ -2,6 +2,8 @@
 
 Nomic Embed Multimodal is a family of vision-language models built on Qwen2.5-VL that generates high-dimensional embeddings for both images and text in a shared vector space. These models provide state-of-the-art performance for visual document understanding with efficient single-vector representations.
 
+![image](nomicemb_fo.gif)
+
 **Available Models:**
 - **7B Model**: `nomic-ai/nomic-embed-multimodal-7b` (7 billion parameters)
 - **3B Model**: `nomic-ai/nomic-embed-multimodal-3b` (3 billion parameters)
@@ -367,17 +369,3 @@ If you use Nomic Embed Multimodal in your research, please cite:
 
 - **Model**: Apache 2.0
 - **Integration Code**: Apache 2.0 (see [LICENSE](LICENSE))
-
-
-
-## Contributing
-
-Found a bug or have a feature request? Please open an issue on GitHub!
-
-## Acknowledgments
-
-- **Nomic AI** for the excellent Nomic Embed Multimodal models
-- **Qwen Team** for the Qwen2.5-VL base architecture
-- **ColPali Engine** for the model implementation and processor
-- **Voxel51** for the FiftyOne framework and brain module architecture
-- **HuggingFace** for model hosting
