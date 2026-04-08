@@ -10,6 +10,15 @@ Nomic Embed Multimodal is a family of vision-language models built on Qwen2.5-VL
 
 Both models produce **3584-dimensional embeddings**, offering a sweet spot between model size and embedding quality for document retrieval tasks.
 
+
+## Installation
+
+> **Note:** This model requires `transformers<5.0`. Install in this order to avoid version conflicts:
+
+```bash
+pip install fiftyone colpali-engine torch pillow peft "transformers<5.0"
+```
+
 ## Architecture
 
 ### Single-Vector Design
@@ -60,15 +69,6 @@ dataset.apply_model(model, label_field="predictions")
             └─> Output processor → Classification labels
 ```
 
-## Installation
-
-```bash
-# Install FiftyOne and Nomic Embed dependencies
-pip install fiftyone colpali-engine torch transformers pillow
-
-# Optional: Install Flash Attention 2 for faster inference
-pip install flash-attn --no-build-isolation
-```
 
 **Note**: This model requires the `colpali-engine` package which provides the BiQwen2_5 implementation.
 
